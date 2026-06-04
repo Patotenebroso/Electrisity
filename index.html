@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Consumo Eléctrico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Calculadora de Consumo Eléctrico</h1>
+
+<label>Lectura anterior (kWh):</label>
+<input type="number" id="anterior"><br><br>
+
+<label>Lectura actual (kWh):</label>
+<input type="number" id="actual"><br><br>
+
+<label>Tarifa ($ por kWh):</label>
+<input type="number" id="tarifa" step="0.01"><br><br>
+
+<button onclick="calcular()">Calcular</button>
+
+<h2 id="resultado"></h2>
+
+<script src="script.js"></script>
+
+</body>
+</html>
